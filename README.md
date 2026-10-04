@@ -59,5 +59,5 @@ mobile-price-prediction/
 mobile_price_model.pkl stores the trained Random Forest model and its 514 feature columns. The Streamlit app loads it to predict phone prices without retraining.
 
 # Author
-**Name**Sanika Deshmukh \
+**Name**: Sanika Deshmukh \
 **LinkedIn**:https://www.linkedin.com/in/sanikasdeshmukh/
