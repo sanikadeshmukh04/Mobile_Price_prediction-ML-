@@ -55,3 +55,5 @@ mobile-price-prediction/
 4. open http://localhost:8501  \
 5.enter specs and click Predict price.
 
+# Model File 
+mobile_price_model.pkl stores the trained Random Forest model and its 514 feature columns. The Streamlit app loads it to predict phone prices without retraining.
