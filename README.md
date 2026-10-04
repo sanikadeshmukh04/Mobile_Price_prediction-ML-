@@ -37,3 +37,23 @@ mobile-price-prediction/
 5.Tuned hyperparameters with RandomizedSearchCV and GridSearchCV. \
 6.Evaluated the model (R² ≈ 0.74, MAE ≈ ₹9,300). \
 7.Saved the model and built a Streamlit app.
+
+# Tech Stack for this project
+
+1.Language: Python \
+2.Data handling: pandas, NumPy \
+3.Machine learning: scikit-learn (RandomForestRegressor, RandomizedSearchCV, GridSearchCV) \
+4.Model saving: joblib \
+5.Web app: Streamlit \
+6.Development: Jupyter Notebook \
+7.Version control: Git and GitHub
+
+# Run the application
+
+1.Open VS Code \
+2. File → Open Folder (select your project folder)  \
+3. Terminal → New Terminal → run pip install -r requirements.txt  \
+4. run streamlit run app.py \
+5. open http://localhost:8501  \
+6.enter specs and click Predict price.
+
