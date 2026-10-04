@@ -52,8 +52,7 @@ mobile-price-prediction/
 
 1.Open VS Code \
 2. File → Open Folder (select your project folder)  \
-3. Terminal → New Terminal → run pip install -r requirements.txt  \
-4. run streamlit run app.py \
-5. open http://localhost:8501  \
-6.enter specs and click Predict price.
+3. Terminal → New Terminal → run pip install -r requirements.txt  \  → run streamlit run app.py \
+4. open http://localhost:8501  \
+5.enter specs and click Predict price.
 
