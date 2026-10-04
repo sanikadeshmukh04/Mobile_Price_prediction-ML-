@@ -11,7 +11,7 @@ mobile-price-prediction/
 ├── models/ \
 │   └── mobile_price_model.pkl    # Saved model + feature columns \
 ├── requirements.txt \
-└── README.md \
+└── README.md 
 
 # Features used for prediction
 
@@ -24,4 +24,16 @@ mobile-price-prediction/
 7.Charge_W (fast charging) \
 8.Ext_Mem_GB (external memory) \
 9.Rating \
-10.Android_version \
+10.Android_version 
+
+# Algorithm Used And Steps Performed
+
+**Algorithm:**  Random Forest Regressor. \
+**Steps:** \
+1.Loaded and cleaned the data. \
+2.Extracted numeric specs and created a Brand column. \
+3.One-hot encoded categories and filled missing values. \
+4.Split into 80% train and 20% test. \
+5.Tuned hyperparameters with RandomizedSearchCV and GridSearchCV. \
+6.Evaluated the model (R² ≈ 0.74, MAE ≈ ₹9,300). \
+7.Saved the model and built a Streamlit app.
