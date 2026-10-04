@@ -5,10 +5,10 @@ A machine learning project that estimates the price of a smartphone from its spe
 # Project Structure
 
 mobile-price-prediction/
-├── app.py                        # Streamlit web app
-├── price.ipynb                   # Data cleaning, training, tuning, evaluation
-├── mobilepriceprediction.csv     # Dataset (1,370 phones)
-├── models/
-│   └── mobile_price_model.pkl    # Saved model + feature columns
-├── requirements.txt
-└── README.md
+├── app.py                        # Streamlit web app /
+├── price.ipynb                   # Data cleaning, training, tuning, evaluation /
+├── mobilepriceprediction.csv     # Dataset (1,370 phones) /
+├── models/ /
+│   └── mobile_price_model.pkl    # Saved model + feature columns /
+├── requirements.txt /
+└── README.md /
